@@ -163,7 +163,7 @@ const Content = styled.div`
     width: fit-content;
     gap:16px;
     scroll-behavior: smooth;
-    overflow-x: auto;
+    overflow: visible;
     // overflow: visi;
     // overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;

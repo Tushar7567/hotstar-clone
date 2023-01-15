@@ -24,7 +24,7 @@ const MoviesList = () => {
               <br /> Crime,Comedy,2022
             </span>
             <div>
-              <Add className="font-18" />
+            <Add className="font-18" />
               <span className="font-10" >ADD TO WATCHLIST</span>
             </div>
           </section>
@@ -126,7 +126,7 @@ const MoviesList = () => {
               <br /> Crime,Comedy,2022
             </span>
             <div>
-              <Add className="font-18" />
+              <Add className="font-18" /> 
               <span className="font-10">ADD TO WATCHLIST</span>
             </div>
           </section>
@@ -185,48 +185,53 @@ const Wrap = styled.div`
         object-fit: cover;
     }
     
-    
-
     &:hover{
         transition: all 0.7s ease;
         transform: translateX(5px) scale(1.3);
         z-index: 1;
         
         section{
-            height: 50%;
-            padding: 4px;
-            display: grid;
-            grid-template-column: 1fr;
-            justify-content: center;
-            // border: 1px solid white;
-            background-image: linear-gradient(to bottom,  #141b29 50%, #0c111b 70%);
-            opacity: 0.98;
-            // filter: blur(0.4px);
-            position: absolute;
-            z-index: 1;
-            top: 50%;
-            left: 0;
-            right: 0;
-            bottom 0;
-          
+          height: 50%;
+          padding: 4px;
+          display: grid;
+          grid-template-column: 1fr;
+          justify-content: center;
+          // border: 1px solid white;
+          background-image: linear-gradient(to bottom,  #141b29 50%, #0c111b 70%);
+          opacity: 0.98;
+          // filter: blur(0.4px);
+          position: absolute;
+          z-index: 1;
+          top: 50%;
+          left: 0;
+          right: 0;
+          bottom 0;
+        
     
-            div{
-                padding: 0 4px;
-                height: auto;
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-
-                span{
-                  font-size: 10px;
-                }
-
-                &:hover{
+          div{
+              padding: 0 4px;
+              height: auto;
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+    
+              span{
+                font-size: 10px;
+              }
+    
+              &:hover{
+                  background-color: #1e1e1e;
+                  span{
                     background-color: #1e1e1e;
-                }
-            }
+                  }
+                  
+                  
+              }
+          }
         
         }
+        
+       
         
     }
   @media only screen and (max-width: 427px){

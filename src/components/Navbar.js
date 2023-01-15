@@ -147,11 +147,13 @@ const NavMenu = styled.div`
         div{
 
             display: none;
-
+            // background-color: #1d2026;
             a{
                 // width: 7rem;
                 height: 2rem;
                 padding-left: 10px;
+                background-color: #1d2026;
+
             }
             a:hover{
                 background-color: #090b13;
